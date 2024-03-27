@@ -2,6 +2,7 @@
 using System.Data;
 using System.Windows;
 
+
 namespace TaskAbbigliamento
 {
     /// <summary>
@@ -9,6 +10,9 @@ namespace TaskAbbigliamento
     /// </summary>
     public partial class App : Application
     {
+
+        
+
     }
 
 }

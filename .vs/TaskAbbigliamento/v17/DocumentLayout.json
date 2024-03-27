@@ -1,7 +1,48 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|c:\\users\\titon\\desktop\\taskabbigliamento\\taskabbigliamento\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|solutionrelative:taskabbigliamento\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|c:\\users\\titon\\desktop\\taskabbigliamento\\taskabbigliamento\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|solutionrelative:taskabbigliamento\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|c:\\users\\titon\\desktop\\taskabbigliamento\\taskabbigliamento\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|solutionrelative:taskabbigliamento\\models\\utente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|c:\\users\\titon\\desktop\\taskabbigliamento\\taskabbigliamento\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|solutionrelative:taskabbigliamento\\dal\\idal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|c:\\users\\titon\\desktop\\taskabbigliamento\\taskabbigliamento\\dal\\utentedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|solutionrelative:taskabbigliamento\\dal\\utentedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|c:\\users\\titon\\desktop\\taskabbigliamento\\taskabbigliamento\\models\\taskabbigliamentocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|solutionrelative:taskabbigliamento\\models\\taskabbigliamentocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|c:\\users\\titon\\desktop\\taskabbigliamento\\taskabbigliamento\\models\\prezzo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|solutionrelative:taskabbigliamento\\models\\prezzo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|c:\\users\\titon\\desktop\\taskabbigliamento\\taskabbigliamento\\dal\\categoriumdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|solutionrelative:taskabbigliamento\\dal\\categoriumdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|c:\\users\\titon\\desktop\\taskabbigliamento\\taskabbigliamento\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|solutionrelative:taskabbigliamento\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|c:\\users\\titon\\desktop\\taskabbigliamento\\taskabbigliamento\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A65721A8-0E5E-4EA2-8FD5-AD8C866EAEDD}|TaskAbbigliamento\\TaskAbbigliamento.csproj|solutionrelative:taskabbigliamento\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +50,138 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TaskAbbigliamento\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TaskAbbigliamento\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAAAMoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:32:06.393Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TaskAbbigliamento\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\MainWindow.xaml",
+              "RelativeToolTip": "TaskAbbigliamento\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T13:33:57.625Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDal.cs",
+              "DocumentMoniker": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\DAL\\IDal.cs",
+              "RelativeDocumentMoniker": "TaskAbbigliamento\\DAL\\IDal.cs",
+              "ToolTip": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\DAL\\IDal.cs",
+              "RelativeToolTip": "TaskAbbigliamento\\DAL\\IDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:34:32.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Prezzo.cs",
+              "DocumentMoniker": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\Models\\Prezzo.cs",
+              "RelativeDocumentMoniker": "TaskAbbigliamento\\Models\\Prezzo.cs",
+              "ToolTip": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\Models\\Prezzo.cs",
+              "RelativeToolTip": "TaskAbbigliamento\\Models\\Prezzo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:16:21.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Utente.cs",
+              "DocumentMoniker": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\Models\\Utente.cs",
+              "RelativeDocumentMoniker": "TaskAbbigliamento\\Models\\Utente.cs",
+              "ToolTip": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\Models\\Utente.cs",
+              "RelativeToolTip": "TaskAbbigliamento\\Models\\Utente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:39:49.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UtenteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\DAL\\UtenteDAL.cs",
+              "RelativeDocumentMoniker": "TaskAbbigliamento\\DAL\\UtenteDAL.cs",
+              "ToolTip": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\DAL\\UtenteDAL.cs",
+              "RelativeToolTip": "TaskAbbigliamento\\DAL\\UtenteDAL.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:37:51.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriumDAL.cs",
+              "DocumentMoniker": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\DAL\\CategoriumDAL.cs",
+              "RelativeDocumentMoniker": "TaskAbbigliamento\\DAL\\CategoriumDAL.cs",
+              "ToolTip": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\DAL\\CategoriumDAL.cs",
+              "RelativeToolTip": "TaskAbbigliamento\\DAL\\CategoriumDAL.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAawGYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:10:12.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "TaskAbbigliamento\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\AssemblyInfo.cs",
+              "RelativeToolTip": "TaskAbbigliamento\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T13:33:24.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskAbbigliamentoContext.cs",
+              "DocumentMoniker": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\Models\\TaskAbbigliamentoContext.cs",
+              "RelativeDocumentMoniker": "TaskAbbigliamento\\Models\\TaskAbbigliamentoContext.cs",
+              "ToolTip": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\Models\\TaskAbbigliamentoContext.cs",
+              "RelativeToolTip": "TaskAbbigliamento\\Models\\TaskAbbigliamentoContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T12:01:11.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TaskAbbigliamento\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\titon\\Desktop\\TaskAbbigliamento\\TaskAbbigliamento\\App.xaml.cs",
+              "RelativeToolTip": "TaskAbbigliamento\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T11:47:45.904Z",
+              "EditorCaption": ""
             }
           ]
         }

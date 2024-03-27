@@ -5,8 +5,166 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TaskAbbigliamento"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="621">
     <Grid>
+        <TabControl>
+            <TabItem Header="General">
+                <!--<Grid Margin="0,0,0,179">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
 
+                    <TextBlock Text="Nome:" Grid.Row="0" Grid.Column="0" Margin="5"/>
+                    <TextBox x:Name="txtNome" Grid.Row="0" Grid.Column="1" Margin="5"/>
+
+                    <TextBlock Text="Cognome:" Grid.Row="1" Grid.Column="0" Margin="5"/>
+                    <TextBox x:Name="txtCognome" Grid.Row="1" Grid.Column="1" Margin="5"/>
+
+                    <TextBlock Text="Telefono:" Grid.Row="2" Grid.Column="0" Margin="5"/>
+                    <TextBox x:Name="txtTelefono" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+                    <TextBlock Text="Email:" Grid.Row="3" Grid.Column="0" Margin="5"/>
+                    <TextBox x:Name="txtEmail" Grid.Row="3" Grid.Column="1" Margin="5"/>
+
+                    <TextBlock Text="Nome Utente:" Grid.Row="4" Grid.Column="0" Margin="5"/>
+                    <TextBox x:Name="txtNomeUtente" Grid.Row="4" Grid.Column="1" Margin="5"/>
+
+                    <Button Content="Salva" Click="Salva_Click" Grid.Row="5" Grid.Column="1" Margin="5"/>
+                </Grid>-->
+            </TabItem>
+
+
+            <TabItem Header="Utente">
+                <DockPanel>
+                    <StackPanel Margin="0,0,449,0" Width="154">
+                        <TextBlock Text="Nome:" Grid.Row="0" Grid.Column="0" Margin="5"/>
+                        <TextBox x:Name="txtNome" Grid.Row="0" Grid.Column="1" Margin="5"/>
+
+                        <TextBlock Text="Cognome:" Grid.Row="1" Grid.Column="0" Margin="5"/>
+                        <TextBox x:Name="txtCognome" Grid.Row="1" Grid.Column="1" Margin="5"/>
+
+                        <TextBlock Text="Telefono:" Grid.Row="2" Grid.Column="0" Margin="5"/>
+                        <TextBox x:Name="txtTelefono" Grid.Row="2" Grid.Column="1" Margin="5"/>
+
+                        <TextBlock Text="Email:" Grid.Row="3" Grid.Column="0" Margin="5"/>
+                        <TextBox x:Name="txtEmail" Grid.Row="3" Grid.Column="1" Margin="5"/>
+
+                        <TextBlock Text="Nome Utente:" Grid.Row="4" Grid.Column="0" Margin="5"/>
+                        <TextBox x:Name="txtNomeUtente" Grid.Row="4" Grid.Column="1" Margin="5"/>
+
+                        <Button Content="Salva" Click="Salva_Click" Grid.Row="5" Grid.Column="1" Margin="5"/>
+                    </StackPanel>
+                    <Grid>
+                        <DataGrid x:Name="listaUtenti" AutoGenerateColumns="False" Margin="-450,0,0,0">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Nome" Binding="{Binding Nome,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTextColumn Header="Cognome" Binding="{Binding Cognome,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTextColumn Header="Telefono" Binding="{Binding Telefono,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTextColumn Header="Email" Binding="{Binding Email,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTextColumn Header="Nome Utente" Binding="{Binding NomeUtente,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTemplateColumn>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Elimina" Click="Elimina_Click" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Modifica" Click="Modifica_Click" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Categoria">
+                <DockPanel>
+                    <StackPanel Margin="0,0,449,0" Width="154">
+                        <TextBlock Text="Nome:" Grid.Row="0" Grid.Column="0" Margin="5"/>
+                        <TextBox x:Name="txtNomeCategoria" Grid.Row="0" Grid.Column="1" Margin="5"/>
+
+                        
+
+                        <Button Content="Salva" Click="SalvaCat_Click" Grid.Row="5" Grid.Column="1" Margin="5"/>
+                    </StackPanel>
+                    <Grid>
+                        <DataGrid x:Name="listaCategoria" AutoGenerateColumns="False" Margin="-450,0,0,0">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Nome" Binding="{Binding NomeCategoria,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTemplateColumn>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Elimina" Click="EliminaCat_Click" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Modifica" Click="ModificaCat_Click" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </DockPanel>
+            </TabItem>
+            <TabItem Header="Prezzo">
+                <DockPanel>
+                    <StackPanel Margin="0,0,449,0" Width="154">
+                        <TextBlock Text="Prezzo Pieno:" Grid.Row="0" Grid.Column="0" Margin="5"/>
+                        <TextBox x:Name="txtPrezzoPieno" Grid.Row="0" Grid.Column="1" Margin="5"
+         Text="{Binding PrezzoPieno, UpdateSourceTrigger=LostFocus, Mode=TwoWay, StringFormat=N2, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" />
+
+
+                        <TextBlock Text="Prezzo Scontato:" Grid.Row="0" Grid.Column="0" Margin="5"/>
+                        <TextBox x:Name="txtPrezzoScontato" Grid.Row="0" Grid.Column="1" Margin="5"
+         Text="{Binding PrezzoScontato, UpdateSourceTrigger=LostFocus, Mode=TwoWay, StringFormat=N2, ValidatesOnDataErrors=True, NotifyOnValidationError=True}" />
+                        <TextBlock Text="Prezzo Scontato:" Grid.Row="0" Grid.Column="0" Margin="5"/>
+                        
+                    
+
+
+
+                        <Button Content="Salva" Click="SalvaCat_Click" Grid.Row="5" Grid.Column="1" Margin="5"/>
+                    </StackPanel>
+                    <Grid>
+                        <DataGrid x:Name="listaPrezzo" AutoGenerateColumns="False" Margin="-450,0,0,0">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Nome" Binding="{Binding NomeCategoria,UpdateSourceTrigger=PropertyChanged}" />
+                                <DataGridTemplateColumn>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Elimina" Click="EliminaCat_Click" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                                <DataGridTemplateColumn>
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Modifica" Click="ModificaCat_Click" />
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+                </DockPanel>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
